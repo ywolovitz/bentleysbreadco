@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bentley's Bread Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/faviocon.jpg" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="assets/logo.jpg"
+          alt="Bentley's Bread Co. Logo"
+          class="logo"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Welcome to Bentley's Bread Co.</h1>
+          <p class="tagline">Artisan breads, crafted with care</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <h2>Our Breads</h2>
+          <div class="carousel-wrapper">
+            <button class="carousel-btn prev" aria-label="Previous images">
+              ‹
+            </button>
+            <div class="carousel-container">
+              <div class="carousel-track" id="carouselTrack">
+                <!-- Images are automatically loaded from assets/carousel/ directory -->
+                <!-- Just add images to assets/carousel/ and run: node generate-carousel.js -->
+              </div>
+            </div>
+            <button class="carousel-btn next" aria-label="Next images">
+              ›
+            </button>
+          </div>
+          <div class="carousel-indicators" id="carouselIndicators"></div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="contact-grid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="assets/logo.jpg"
+                    alt="Bentley's Bread Co. Logo"
+                    class="card-logo"
+                  />
+                  <h3>Phone</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Phone</h3>
+                  <p>
+                    <strong>Dom:</strong>
+                    <a href="tel:0793935169">079 393 5169</a>
+                  </p>
+                  <p>
+                    <strong>Jethro:</strong>
+                    <a href="tel:0720715585">072 071 5585</a>
+                  </p>
+                  <p>
+                    <strong>Store:</strong>
+                    <a href="tel:0210070990">021 007 0990</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="assets/logo.jpg"
+                    alt="Bentley's Bread Co. Logo"
+                    class="card-logo"
+                  />
+                  <h3>Email</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Email</h3>
+                  <p>
+                    <a href="mailto:dom@bentleysbakery.co.za"
+                      >dom@bentleysbakery.co.za</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="assets/logo.jpg"
+                    alt="Bentley's Bread Co. Logo"
+                    class="card-logo"
+                  />
+                  <h3>Address</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Address</h3>
+                  <p>
+                    <a
+                      href="https://www.google.com/maps/place/Boulevard+Office+Park+Block+C/@-33.9306733,18.4405916,17z/data=!3m1!4b1!4m6!3m5!1s0x1dcc5d9cbf403183:0xa56414f0bbc19f2!8m2!3d-33.9306733!4d18.4405916!16s%2Fg%2F11c4614mm2?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Block B, Boulevard Office Park<br />
+                      1 Searle Street<br />
+                      Woodstock
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/BENTLEYSBREAD/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            Facebook
+          </a>
+          <a
+            href="https://www.instagram.com/bentleysbreadco/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            Instagram
+          </a>
+        </div>
+        <p>&copy; 2024 Bentley's Bread Co. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="images.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
