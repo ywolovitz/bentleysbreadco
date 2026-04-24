@@ -8,3 +8,5 @@ node generate-carousel.js
 ```
 
 This will automatically update the carousel with your new images.
+
+

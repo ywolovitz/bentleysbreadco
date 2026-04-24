@@ -36,3 +36,5 @@ Your site will be live in a few minutes at:
 ## Note
 
 The `.gitignore` file is already created to exclude system files like `.DS_Store`.
+
+

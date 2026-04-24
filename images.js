@@ -2,22 +2,9 @@
 // Run 'node generate-carousel.js' to regenerate this file
 
 const carouselImages = [
-  "assets/carousel/1.jpg",
-  "assets/carousel/10.jpg",
-  "assets/carousel/11.jpg",
-  "assets/carousel/12.jpg",
-  "assets/carousel/13.jpg",
-  "assets/carousel/14.jpg",
-  "assets/carousel/15.jpg",
-  "assets/carousel/16.jpg",
-  "assets/carousel/17.jpg",
-  "assets/carousel/18.jpg",
-  "assets/carousel/2.jpg",
-  "assets/carousel/3.jpg",
-  "assets/carousel/4.jpg",
-  "assets/carousel/5.jpg",
-  "assets/carousel/6.jpg",
-  "assets/carousel/7.jpg",
-  "assets/carousel/8.jpg",
-  "assets/carousel/9.jpg"
+  "assets/carousel/2025-01-11.jpg",
+  "assets/carousel/20260316_070236.jpg",
+  "assets/carousel/20260318_073828.jpg",
+  "assets/carousel/20260403_061617.jpg",
+  "assets/carousel/20260420_071019.jpg"
 ];

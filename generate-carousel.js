@@ -43,3 +43,5 @@ const carouselImages = ${JSON.stringify(images, null, 2)};
 fs.writeFileSync(outputFile, content, 'utf8');
 console.log(`✓ Generated images.js with ${images.length} image(s)`);
 console.log(`  Images will be loaded automatically when you open index.html`);
+
+
